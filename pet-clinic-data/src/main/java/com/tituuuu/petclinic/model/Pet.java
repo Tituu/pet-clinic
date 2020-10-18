@@ -6,6 +6,7 @@ public class Pet {
     private PetType petType;
     private Owner owner;
     private LocalDate birthday;
+    private Long id;
 
     public PetType getPetType() {
         return petType;

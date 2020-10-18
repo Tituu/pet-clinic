@@ -3,6 +3,7 @@ package com.tituuuu.petclinic.model;
 public class Person {
     private String firstName;
     private String lastName;
+    private Long id;
 
     public String getFirstName() {
         return firstName;
