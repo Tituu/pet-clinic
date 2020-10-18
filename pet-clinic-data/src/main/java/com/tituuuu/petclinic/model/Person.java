@@ -1,9 +1,8 @@
 package com.tituuuu.petclinic.model;
 
-public class Person {
+public class Person extends BaseEntity{
     private String firstName;
     private String lastName;
-    private Long id;
 
     public String getFirstName() {
         return firstName;
